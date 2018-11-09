@@ -30,3 +30,12 @@ puts num.floor()
 # math class to perform math operations
 # print square root
 puts Math.sqrt(30)
+
+
+# getting user input
+puts "enter your name"
+name = gets.chomp()
+puts "hello #{name}"
+puts "how old are you?"
+age = gets.chomp()
+puts "cool!!!!"
