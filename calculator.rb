@@ -1,7 +1,20 @@
-puts "enter a number"
+puts "Enter first number:"
+# store the answer in a variable
 num1 = gets.chomp().to_f
-puts "enter another number"
+puts "Enter Operator:"
+op = gets.chomp()
+puts "Enter second number:"
 num2 = gets.chomp().to_f
 
-# converted it to an integer so its not longer a string
-puts(num1 + num2)
+
+if op == "+"
+  puts (num1 + num2)
+elsif op == "-"
+  puts (num1 - num2)
+elsif op == "*"
+  puts (num1 * num2)
+elsif op == "/"
+  puts (num1 / num2)
+else
+  puts "Invalid operator"
+end
