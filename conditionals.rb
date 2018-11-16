@@ -1,3 +1,4 @@
+# conditionals in ruby execute a block of code depending on whether it is true is true or false. for this we use if statements. ___ PacMan reference
 # if statements - allow us to respond to information in our program
 
 
