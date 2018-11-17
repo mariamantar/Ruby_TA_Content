@@ -50,13 +50,11 @@ class Shopping
               end
 
             @exit = false
-
             @stay = false
 
           when 'finish'
 
             @exit = false
-
             @stay = false
 
             puts "thanks for shopping , see you later"
@@ -64,33 +62,20 @@ class Shopping
             File.open("shoppingList.txt", "a" ) {|f| f.puts(@shopping_list)}
 
           when 'help'
-
               puts "start - start the shopping list
-
                     show - print the shopping list
-
                     finish - quit the app
 
                   "
-
               @exit = false
-
               @stay = false
-
           else
-
             puts "wrong key try agian"
-
             @exit = false
-
             @stay = false
-
           end
-
       end
-
   end
-
 end
 
 nandini_shop_list = Shopping.new('Nandini')
